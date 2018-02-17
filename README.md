@@ -1,23 +1,23 @@
+## Overtime App
 
+## Key requirement: company needs documentation that salaried employees did or did not get overtime each week
 
-Post
-date
-rationale
+## Models
+- Post -> date/ldate rationale:text
+- User -> Devise
+- AdminUser -> STI
 
+## Features
+- Approval Workflow
+- Send SMS containing link to log time / approval
+- Administrate for admin dashboard
+- Email summary to Managers (admin users) for aproval
+- Needs to be documented if employee did not log overtime
 
-User
-devise   <-sti   Admin User
+## UI:
+Bootstrap -> formatting
 
-
-features:
-1. approval workflow
-2. send sms containing link to log time
-3. admin dashboard -> administrate
-4. email summary to admin users for aproval
-5. need documentation for 'no overtime'
-
-
-gems
+Gems used:
 devise
 administrate
 bootstrap
