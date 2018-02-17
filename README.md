@@ -15,14 +15,14 @@
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-Bootstrap -> formatting
+- Bootstrap -> formatting
 
-Gems used:
-devise
-administrate
-bootstrap
-twilio
-dotenv
-rspec
-capybara
+## Gems used:
+- devise
+- administrate
+- bootstrap
+- twilio
+- dotenv
+- rspec
+- capybara
  
